@@ -78,7 +78,7 @@ This will:
 2. From the **repository root** (the folder that contains both `llm/` and `utils/`), run:
 
 ```bash
-python llm/decision_trust_reflection_demo.py --model gpt-4o-mini -o outputs/llm_pipeline_run.txt
+python llm/decision_trust_reflection_demo.py --model gpt-4o -o outputs/llm_pipeline_run.txt
 ```
 
 The script adds the repo root to `sys.path`, so this command works even though the file lives under `llm/`.
